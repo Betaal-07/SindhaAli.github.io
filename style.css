@@ -273,8 +273,8 @@ header{
 }
 
 .content .about-img img{
-    max-width: 100%;
-    min-width: 450px;
+    max-width: 450px;
+    /* min-width: 450px; */
     border-radius: 10px;
     transform: translate(0,0);
 }
@@ -466,6 +466,7 @@ header{
 
 .contact-list li span a{
     color: var(--third-color);
+    text-decoration: none;
 }
 
 .contact-form input,  .contact-form textarea{
@@ -605,7 +606,7 @@ footer a{
 }
 
 .home-img{
-    margin-left: 15vh;
+    margin-left: 10vh;
 }
 .home-img img{
     min-width: 0;
@@ -683,6 +684,10 @@ footer{
     body{
         margin: 5rem 0 0;
     }
+
+    .show .nav-items{
+        margin-left: 0;
+    }
     
     .section-title{
         font-size: 3em;
@@ -695,6 +700,21 @@ footer{
 
     .home .home-container .info{
         display: block;
+    }
+
+    .about{
+        padding: 5px;
+    }
+
+    .all-education{
+        margin-left: 0;
+        margin-right: 100px;
+        padding: 0;
+    }
+
+    .skills-info{
+        padding-right: 100px;
+        
     }
 
     footer{
